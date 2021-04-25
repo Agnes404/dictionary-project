@@ -1,4 +1,5 @@
 import Dictionary from "./Dictionary";
+import Footer from "./Footer";
 import "./App.css";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
         <Dictionary />
+        <Footer />
       </div>
     </div>
   );

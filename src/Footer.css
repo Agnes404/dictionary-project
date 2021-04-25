@@ -1,0 +1,21 @@
+.gitHubLink,
+.linkedInLink {
+  text-decoration: none;
+  font-weight: 450;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+}
+
+.gitHubLink:hover,
+.linkedInLink:hover {
+  font-weight: 550;
+  text-decoration: none;
+  transition: all 10ms ease-in-out;
+}

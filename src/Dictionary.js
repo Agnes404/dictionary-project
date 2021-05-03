@@ -23,10 +23,16 @@ export default function Dictionary(props) {
     search();
   }
 
+  function handleError(error) {
+    if (error.response) {
+      alert("Sorry, we couldn't find your city. Please type another one.");
+    }
+  }
+
   function search() {
     // documentation: https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
-    axios.get(apiUrl).then(handleDictionaryResponse);
+    axios.get(apiUrl).then(handleDictionaryResponse).catch(handleError);
 
     // documentation: https://www.pexels.com/api/documentation/
     const pexelsApiKey =

@@ -1,0 +1,13 @@
+.Phonetics .pronunciation {
+  font-size: 16px;
+}
+
+.Phonetics {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Phonetics .audio {
+  border: 4px double #9b9b9b;
+  border-radius: 30px;
+}

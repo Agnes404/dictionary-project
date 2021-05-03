@@ -1,0 +1,11 @@
+.Synonyms ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.Synonyms li {
+  display: inline;
+  margin-right: 8px;
+  text-align: center;
+}

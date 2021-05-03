@@ -1,0 +1,16 @@
+.Meaning h3 {
+  font-size: 25px;
+  font-family: "New Tegomin", serif;
+  font-weight: 900;
+}
+
+.Meaning .definition::first-letter {
+  text-transform: capitalize;
+}
+
+.Meaning .example {
+  font-size: 15px;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 8px 0;
+}

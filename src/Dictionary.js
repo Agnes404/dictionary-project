@@ -44,6 +44,7 @@ export default function Dictionary(props) {
                 className="form-control"
                 autoFocus={true}
                 onChange={handleKeyword}
+                defaultValue={props.defaultKeyword}
               />
               <input type="button" value="Search" className="btn btn-primary" />
             </div>

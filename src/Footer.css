@@ -2,6 +2,7 @@
 .linkedInLink {
   text-decoration: none;
   font-weight: 450;
+  color: #1d0871;
 }
 
 footer {
@@ -12,6 +13,7 @@ footer {
 
 .gitHubLink:hover,
 .linkedInLink:hover {
+  color: aliceblue;
   font-weight: 550;
   text-decoration: none;
   transition: all 10ms ease-in-out;

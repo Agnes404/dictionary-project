@@ -4,10 +4,11 @@
 
 .Phonetics {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  margin-left: 10px;
 }
 .Phonetics .audio {
   border: 4px double #9b9b9b;
   border-radius: 30px;
+  margin-left: 50px;
 }

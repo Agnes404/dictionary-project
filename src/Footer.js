@@ -17,7 +17,7 @@ export default function Footer() {
       <section>
         <footer>
           <a
-            href="https://github.com/Agnes404/weather-app-react"
+            href="https://github.com/Agnes404/dictionary-project"
             target="_blank"
             rel="noreferrer"
             className="gitHubLink"

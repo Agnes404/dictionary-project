@@ -6,13 +6,18 @@
 .Dictionary h1 {
   font-size: 25px;
   text-align: center;
+  font-family: "New Tegomin", serif;
+  font-weight: 900;
+  font-style: italic;
 }
 
 section {
   background-image: linear-gradient(to top, #ebf1f1 0%, #eae5f0 100%);
   color: black;
+  max-width: 750px;
   padding: 20px;
   border-radius: 15px 35px;
-  margin: 15px 0;
-  box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.2);
+  display: block;
+  margin: 15px auto;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }

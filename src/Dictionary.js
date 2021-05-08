@@ -25,7 +25,7 @@ export default function Dictionary(props) {
 
   function handleError(error) {
     if (error.response) {
-      alert("Sorry, we couldn't find your city. Please type another one.");
+      alert("Sorry, we couldn't find your word. Please type another one.");
     }
   }
 
